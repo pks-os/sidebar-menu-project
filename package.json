@@ -5,8 +5,10 @@
 	"main": "gruntfile.js",
 	"dependencies": {
 		"sidebar-menu-accgit": "^1.0.0",
+		"popper.js": "^1.14.7"
+	},
+	"devDependencies": {
 		"grunt": "^1.0.3",
-		"popper.js": "^1.14.7",
 		"grunt-contrib-copy": "^1.0.0",
 		"grunt-contrib-cssmin": "^3.0.0",
 		"grunt-contrib-uglify": "^4.0.0"
