@@ -2,6 +2,10 @@ module.exports = function(grunt) {
 	grunt.initConfig({
 		pkg: grunt.file.readJSON('package.json'),
 		cssmin: {
+			options: {
+				keepSpecialComments: false,
+				sourceMap: true
+			},
 			target: {
 				files: [
 					{'www/css/sidebar.menu.min.css': [
