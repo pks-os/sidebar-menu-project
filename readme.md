@@ -5,12 +5,10 @@ Sidebar menu is simple and fast template for dashboard on bootstrap 4
 
 ## Installation
 
-```
-git clone https://github.com/accgit/sidebar-menu-project.git path/to/dir
-npm install
-```
+Git clone:   ```git clone https://github.com/accgit/sidebar-menu-project.git```
+Install npm: ```npm install```
 
-## Minify CSS and JS
+## Run grunt for minify CSS and JS
 
 ```
 grunt minify-all
